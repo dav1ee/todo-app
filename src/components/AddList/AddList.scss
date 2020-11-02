@@ -1,0 +1,52 @@
+.add-list {
+  &-button {
+    opacity: 0.4;
+
+    &:hover {
+      opacity: 1;
+      transition: opacity 0.15s ease-in-out;
+    }
+  }
+
+  &__popup {
+    width: 240px;
+    height: 150px;
+    background: #ffffff;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 18px;
+    box-sizing: border-box;
+    position: relative;
+    top: -25px;
+    left: 10px;
+
+    .button {
+      width: 100%;
+      margin-top: 13px;
+    }
+
+    &-close-btn {
+      position: absolute;
+      right: -8px;
+      top: -8px;
+      cursor: pointer;
+    }
+
+    &-colors {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 13px;
+
+      .badge {
+        width: 16px;
+        height: 16px;
+        border: 2px solid transparent;
+        cursor: pointer;
+
+        &.active {
+          border-color: #525252;
+        }
+      }
+    }
+  }
+}
