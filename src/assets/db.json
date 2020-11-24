@@ -1,6 +1,100 @@
 {
-  "lists": [],
-  "tasks": [],
+  "lists": [
+    {
+      "name": "ReactJS",
+      "colorId": 3,
+      "id": 1
+    },
+    {
+      "name": "Redux",
+      "colorId": 6,
+      "id": 2
+    },
+    {
+      "name": "Школа",
+      "colorId": 8,
+      "id": 3
+    },
+    {
+      "name": "Спорт",
+      "colorId": 2,
+      "id": 4
+    }
+  ],
+  "tasks": [
+    {
+      "listId": 1,
+      "text": "Изучить хук состояния",
+      "completed": true,
+      "id": 1
+    },
+    {
+      "listId": 1,
+      "text": "Изучить хук эффекта",
+      "completed": true,
+      "id": 2
+    },
+    {
+      "listId": 2,
+      "text": "Изучить использование useSelector() и useDispatch()",
+      "completed": true,
+      "id": 3
+    },
+    {
+      "listId": 2,
+      "text": "Паттерны",
+      "completed": false,
+      "id": 4
+    },
+    {
+      "listId": 3,
+      "text": "Закрыть долги",
+      "completed": false,
+      "id": 5
+    },
+    {
+      "listId": 3,
+      "text": "Подготовиться к контрольной работе",
+      "completed": false,
+      "id": 6
+    },
+    {
+      "listId": 1,
+      "text": "Разработать еще один проект",
+      "completed": false,
+      "id": 7
+    },
+    {
+      "listId": 3,
+      "text": "Сделать домашнюю работу",
+      "completed": false,
+      "id": 8
+    },
+    {
+      "listId": 4,
+      "text": "Пресс",
+      "completed": true,
+      "id": 9
+    },
+    {
+      "listId": 4,
+      "text": "Спина",
+      "completed": false,
+      "id": 10
+    },
+    {
+      "listId": 4,
+      "text": "Ноги",
+      "completed": false,
+      "id": 11
+    },
+    {
+      "listId": 4,
+      "text": "Руки",
+      "completed": true,
+      "id": 12
+    }
+  ],
   "colors": [
     {
       "id": 1,
